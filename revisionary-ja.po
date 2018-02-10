@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-02-10 01:34+0900\n"
+"PO-Revision-Date: 2018-02-10 16:19+0900\n"
 "Language-Team: \n"
 "X-Generator: Poedit 2.0.6\n"
 "Last-Translator: \n"
@@ -60,15 +60,15 @@ msgid ""
 "Revisionary is not compatible with Role Scoper versions prior to %1$s.  "
 "Please upgrade or deactivate %2$s Role Scoper%3$s."
 msgstr ""
-"Revisionary は %1$s より前の Role Scoper バージョンと互換性がありません。 "
+"リビジョナリーは %1$s より前の Role Scoper バージョンと互換性がありません。 "
 "%2$s Role Scoper%3$s をアップグレードするか無効にしてください。"
 
 #: revisionary.php:39
 msgid ""
 "Another copy of Revisionary is already activated (version %1$s in \"%2$s\")"
 msgstr ""
-"Revisionary の別のコピーがすでに有効になっています（\"%2$s\" 内のバージョン "
-"%1$s）"
+"リビジョナリーの別のコピーがすでに有効になっています（\"%2$s\" 内のバージョ"
+"ン %1$s）"
 
 #: admin/admin_lib-mu_rvy.php:14 admin/admin_rvy.php:332 admin/options.php:160
 msgid "Revisionary Options"
@@ -92,7 +92,7 @@ msgstr "あたなの %1$s \"%2$s\" への改訂版が承認されました"
 
 #: admin/revision-action_rvy.php:138
 msgid "The submitter was %1$s."
-msgstr ""
+msgstr "送信者: %1$s"
 
 #: admin/revision-action_rvy.php:142 admin/revision-action_rvy.php:160
 msgid "It will be published on %s"
@@ -226,7 +226,7 @@ msgstr "公開済み:"
 
 #: admin/revision-ui_rvy.php:545
 msgid "Unsaved Date Selection:"
-msgstr ""
+msgstr "未保存の日付選択:"
 
 #: admin/about.php:28
 msgid "unselfish, benevolent love, born of the Spirit."
@@ -373,25 +373,27 @@ msgid ""
 "Your modification has been saved for editorial review.  If approved, it will "
 "be published on the date you specified."
 msgstr ""
+"あなたの変更は編集上のレビューのために保存されました。 承認された場合は、指定"
+"した日付に公開されます。"
 
 #: admin/admin_rvy.php:600
 msgid "Your modification has been saved for editorial review."
-msgstr ""
+msgstr "あなたの変更は編集上のレビューのために保存されました。"
 
 #: admin/admin_rvy.php:603 admin/admin_rvy.php:761
 msgid "View it in Revisions Manager"
-msgstr ""
+msgstr "改訂版管理で表示"
 
 #: admin/admin_rvy.php:607
 msgid ""
 "Go back to Submit Another revision (possibly for a different publish date)."
-msgstr ""
+msgstr "別の改訂版の送信に戻ります（おそらく別の改訂版の公開日）"
 
 #: admin/admin_rvy.php:614
 msgid ""
 "Sorry, an error occurred while attempting to save your modification for "
 "editorial review!"
-msgstr ""
+msgstr "編集レビューのために変更を保存しようとしてエラーが発生しました"
 
 #: admin/admin_rvy.php:625
 msgid "[%s] Pending Revision Notification"
@@ -399,23 +401,23 @@ msgstr "[%s] 保留中改訂版通知"
 
 #: admin/admin_rvy.php:627
 msgid "A pending revision to the %1$s \"%2$s\" has been submitted."
-msgstr ""
+msgstr "保留中の改訂版 %1$s \"%2$s\" は送信されました"
 
 #: admin/admin_rvy.php:699
 msgid "Pending Revision Created"
-msgstr ""
+msgstr "保留中の改訂版が作成されました"
 
 #: admin/admin_rvy.php:758
 msgid "Your modification was saved as a Scheduled Revision."
-msgstr ""
+msgstr "あなたの変更は、予定された改訂版として保存されました。"
 
 #: admin/admin_rvy.php:763
 msgid "Go back to Schedule Another revision."
-msgstr ""
+msgstr "別の改訂版を予定に戻す"
 
 #: admin/admin_rvy.php:768
 msgid "Scheduled Revision Created"
-msgstr ""
+msgstr "予定された改訂版が作成されました"
 
 #: admin/admin_rvy.php:778
 msgid "Return to Edit Posts"
@@ -431,7 +433,7 @@ msgstr "%s 編集に戻る"
 
 #: admin/revisions.php:53
 msgid "No revision specified."
-msgstr ""
+msgstr "改訂版は指定されていません"
 
 #: admin/revisions.php:58
 msgid "Past"
@@ -439,15 +441,15 @@ msgstr "過去"
 
 #: admin/revisions.php:99
 msgid "%1$s Revisions for &#8220;%2$s&#8221;"
-msgstr ""
+msgstr "%1$s 改訂版 &#8220;%2$s&#8221;"
 
 #: admin/revisions.php:166
 msgid "Revision of &#8220;%1$s&#8221;"
-msgstr ""
+msgstr "改訂版 &#8220;%1$s&#8221;"
 
 #: admin/revisions.php:168
 msgid "Past Revision of &#8220;%1$s&#8221;"
-msgstr ""
+msgstr "過去の改訂版 &#8220;%1$s&#8221;"
 
 #: admin/revisions.php:171
 msgid "Pending Revision of &#8220;%1$s&#8221;"
@@ -455,7 +457,7 @@ msgstr "&#8220;%1$s&#8221; の保留中改訂版"
 
 #: admin/revisions.php:174
 msgid "Scheduled Revision of &#8220;%1$s&#8221;"
-msgstr ""
+msgstr "予定された改訂版 &#8220;%1$s&#8221;"
 
 #: admin/revisions.php:182 admin/revisions.php:189
 msgid "Publish Now"
@@ -471,11 +473,11 @@ msgstr "今すぐ復元"
 
 #: admin/revisions.php:212
 msgid "&#8220;%1$s&#8221; (Current Revision)"
-msgstr ""
+msgstr "&#8220;%1$s&#8221; （現在の改訂版）"
 
 #: admin/revisions.php:230
 msgid "The requested revision does not exist."
-msgstr ""
+msgstr "要求された改訂版は存在しません"
 
 #: admin/revisions.php:283
 msgid "The revision was deleted."
@@ -496,7 +498,7 @@ msgstr "改訂版は復元されました"
 
 #: admin/revisions.php:295
 msgid "The revision was scheduled for publication."
-msgstr ""
+msgstr "改訂版は公開予定です"
 
 #: admin/revisions.php:298
 msgid "The revision was published."
@@ -504,15 +506,15 @@ msgstr "改訂版は公開されました"
 
 #: admin/revisions.php:303
 msgid "To delete the revision, click the link below."
-msgstr ""
+msgstr "改訂版を削除するには、下のリンクをクリックしてください"
 
 #: admin/revisions.php:305
 msgid "You do not have permission to delete that revision."
-msgstr ""
+msgstr "その改訂版を削除する権限がありません"
 
 #: admin/revisions.php:308
 msgid "The revision was unscheduled."
-msgstr ""
+msgstr "改訂版は予定されませんでした"
 
 #. translators: Publish box date formt, see http:php.net/date
 #: admin/revisions.php:327
@@ -549,7 +551,7 @@ msgstr "新しい: %s 更新"
 
 #: admin/revisions.php:496
 msgid "These revisions are identical."
-msgstr ""
+msgstr "これらの改訂版は同一です"
 
 #: admin/revisions.php:528
 msgid "Past Revisions"
@@ -567,7 +569,7 @@ msgstr "予約された改訂版"
 
 #: admin/revisions.php:539
 msgid "%1$s <span class=\"count\"> (%2$s)</span>"
-msgstr ""
+msgstr "%1$s <span class=\"count\"> (%2$s)</span>"
 
 #: admin/revisions.php:554
 msgid "no %s revisions available."
@@ -575,15 +577,15 @@ msgstr "利用可能な %s 改訂版はありません"
 
 #: admin/agents_checklist_rvy.php:52
 msgid "Enter additional User Names or IDs (comma-separate)"
-msgstr ""
+msgstr "追加のユーザー名またはIDを入力（カンマ区切り）"
 
 #: admin/agents_checklist_rvy.php:105
 msgid "show current users (%d)"
-msgstr ""
+msgstr "現在のユーザーを表示 (%d)"
 
 #: admin/agents_checklist_rvy.php:105
 msgid "show eligible users (%d)"
-msgstr ""
+msgstr "権限ユーザーを表示 (%d)"
 
 #: admin/agents_checklist_rvy.php:123
 msgid "filter:"
@@ -599,11 +601,11 @@ msgstr "未選択"
 
 #: admin/agents_checklist_rvy.php:145
 msgid "current users (%d):"
-msgstr ""
+msgstr "現在のユーザー (%d):"
 
 #: admin/agents_checklist_rvy.php:145
 msgid "eligible users (%d):"
-msgstr ""
+msgstr "権限ユーザー (%d):"
 
 #: admin/filters-admin-ui-item_rvy.php:36
 msgid "Schedule Revision"
@@ -612,11 +614,11 @@ msgstr "改訂版を予約"
 #: admin/filters-admin-ui-item_rvy.php:52
 #: admin/filters-admin-ui-item_rvy.php:53
 msgid "Submit Revision"
-msgstr "改訂版を送信"
+msgstr "レビュー待ちとして改訂版を送信"
 
 #: admin/filters-admin-ui-item_rvy.php:54
 msgid "Submit Scheduled Revision"
-msgstr ""
+msgstr "予定された改訂版を送信"
 
 #: admin/filters-admin-ui-item_rvy.php:70
 msgid "Publishers to Notify of Your Revision"
@@ -632,7 +634,7 @@ msgstr "機能"
 
 #: admin/options.php:75
 msgid "Option Scope"
-msgstr ""
+msgstr "オプション範囲"
 
 #: admin/options.php:79
 msgid "Role Definition"
@@ -644,65 +646,65 @@ msgstr "Eメール通知"
 
 #: admin/options.php:90
 msgid "Strip html tags out of difference display"
-msgstr ""
+msgstr "差分表示からHTMLタグを取り除く"
 
 #: admin/options.php:91
 msgid "Asynchronous Publishing"
-msgstr ""
+msgstr "非同期で公開"
 
 #: admin/options.php:92
 msgid "Email original Author when a Pending Revision is submitted"
-msgstr ""
+msgstr "作成者に保留中の改訂版が送信されたとき"
 
 #: admin/options.php:93
 msgid "Email the original Author when a Pending Revision is approved"
-msgstr ""
+msgstr "作成者が保留中の改訂版を承認したとき"
 
 #: admin/options.php:94
 msgid "Email the Revisor when a Pending Revision is approved"
-msgstr ""
+msgstr "保留中の改訂版が承認されたとき改訂者に通知する"
 
 #: admin/options.php:95
 msgid "Email the original Author when a Scheduled Revision is published"
-msgstr ""
+msgstr "予定された改訂版が公開されたとき作成者に通知する"
 
 #: admin/options.php:96
 msgid "Email the Revisor when a Scheduled Revision is published"
-msgstr ""
+msgstr "予定された改訂版が公開されたとき改訂者に通知する"
 
 #: admin/options.php:97
 msgid ""
 "Include capabilities for all custom post types in the WordPress Revisor role"
 msgstr ""
-"WordPress の Revisor 権限のすべてのカスタムポストタイプのための機能を含めます"
+"WordPress の改訂者権限のすべてのカスタムポストタイプのための機能を含めます"
 
 #: admin/options.php:101
 msgid "Email designated Publishers when a Pending Revision is submitted"
-msgstr ""
+msgstr "保留中の改訂版が送信されたときに指定された管理者に通知する"
 
 #: admin/options.php:102
 msgid "Email designated Publishers when a Scheduled Revision is published"
-msgstr ""
+msgstr "予定された改訂版が公開されたときに指定された管理者に通知する"
 
 #: admin/options.php:104
 msgid "Email Editors and Administrators when a Pending Revision is submitted"
-msgstr ""
+msgstr "保留中の改訂版が送信されたとき編集者と管理者に通知する"
 
 #: admin/options.php:105
 msgid "Email Editors and Administrators when a Scheduled Revision is published"
-msgstr ""
+msgstr "予定された改訂版が公開されたとき編集者と管理者に通知する"
 
 #: admin/options.php:154
 msgid "Revisionary Network Options"
-msgstr ""
+msgstr "リビジョナリーネットワークオプション"
 
 #: admin/options.php:156
 msgid "Revisionary Default Site Options"
-msgstr ""
+msgstr "リビジョナリーデフォルトサイトオプション"
 
 #: admin/options.php:158
 msgid "Revisionary Site Options"
-msgstr ""
+msgstr "リビジョナリーサイトオプション"
 
 #: admin/options.php:166 admin/options.php:487
 msgid "Update &raquo;"
@@ -710,13 +712,15 @@ msgstr "更新 &raquo;"
 
 #: admin/options.php:174
 msgid "These settings will be applied to all sites."
-msgstr ""
+msgstr "これらの設定はすべてのサイトに適用されます"
 
 #: admin/options.php:180
 msgid ""
 "These are the <strong>default</strong> settings for options which can be "
 "adjusted per-site."
 msgstr ""
+"これらは、サイトごとに調整できるオプションの <strong>デフォルト</strong> 設定"
+"です"
 
 #: admin/options.php:212
 msgid ""
@@ -728,17 +732,19 @@ msgstr ""
 
 #: admin/options.php:221
 msgid "Note that %1$s site-specific options%2$s may also be available."
-msgstr ""
+msgstr "%1$s サイト固有のオプション %2$s も利用可能です"
 
 #: admin/options.php:228
 msgid "Note that %1$s network-wide options%2$s may also be available."
-msgstr ""
+msgstr "%1$s ネットワーク全体のオプション %2$s も利用可能です"
 
 #: admin/options.php:271
 msgid ""
 "If a currently published post or page is edited and a future date set, the "
 "change will not be applied until the selected date."
 msgstr ""
+"現在公開されている投稿またはページが編集され、将来の日時が設定されている場"
+"合、その変更は選択した日付まで適用されません"
 
 #: admin/options.php:275
 msgid ""
